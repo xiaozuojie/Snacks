@@ -7,19 +7,63 @@
 <link href="css/common.css" rel="stylesheet" type="text/css" />
 <link href="fonts/iconfont.css"  rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<link href="css/Orders.css" rel="stylesheet" type="text/css" />
+<link href="css/show.css" rel="stylesheet" type="text/css" />
+<link href="css/purebox-metro.css" rel="stylesheet" id="skin">
+<script src="js/jquery.min.1.8.2.js" type="text/javascript"></script>
 <script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+<script src="js/jquery.reveal.js" type="text/javascript"></script>
 <script src="js/common_js.js" type="text/javascript"></script>
 <script src="js/footer.js" type="text/javascript"></script>
-<title>网站首页</title>
+<title>购物车</title>
 </head>
+<script type="text/javascript">
+$(document).ready(function () {
+   //全选
+   $("#CheckedAll").click(function () {
+	   if (this.checked) {                 //如果当前点击的多选框被选中
+		   $('input[type=checkbox][name=checkitems]').attr("checked", true);
+	   } else {
+		   $('input[type=checkbox][name=checkitems]').attr("checked", false);
+	   }
+   });
+   $('input[type=checkbox][name=checkitems]').click(function () {
+	   var flag = true;
+	   $('input[type=checkbox][name=checkitems]').each(function () {
+		   if (!this.checked) {
+			   flag = false;
+		   }
+	   });
 
+	   if (flag) {
+		   $('#CheckedAll').attr('checked', true);
+	   } else {
+		   $('#CheckedAll').attr('checked', false);
+	   }
+   });
+   //输出值
+   $("#send").click(function () {
+	      if($("input[type='checkbox'][name='checkitems']:checked").attr("checked")){
+	   var str = "你是否要删除选中的商品：\r\n";
+	   $('input[type=checkbox][name=checkitems]:checked').each(function () {
+		   str += $(this).val() + "\r\n";
+	   })
+	   alert(str);
+		  }
+		  else{
+			   var str = "你未选中任何商品，请选择后在操作！"; 
+			   alert(str);
+       }
+	   	    
+   });
+})
+</script>
 <body>
 <!--顶部样式-->
  <div id="header_top">
   <div id="top">
     <div class="Inside_pages">
-      <div class="Collection">欢迎光临零食e站！<em></em><a href="#">收藏我们</a></div>
+      <div class="Collection">欢迎光临零食e站！</div>
 	<div class="hd_top_manu clearfix">
 	  <ul class="clearfix">
 	   <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！<a href="Login.jsp" class="red">[请登录]</a> 新用户<a href="Registered.jsp" class="red">[免费注册]</a></li>
@@ -43,7 +87,7 @@
 	 <!--<div class="prompt"></div><div class="nogoods"><b></b>购物车中还没有商品，赶紧选购吧！</div>-->
 	 <ul class="p_s_list">	   
 		<li>
-		    <div class="img"><img src="images/tianma.png"></div>
+		    <div class="img"><img src="products/p_7.jpg"></div>
 		    <div class="content"><p><a href="#">产品名称</a></p><p>颜色分类:紫花8255尺码:XL</p></div>
 			<div class="Operations">
 			<p class="Price">￥55.00</p>
@@ -60,7 +104,7 @@
 <!--菜单导航样式-->
 <div id="Menu" class="clearfix">
 <div class="index_style clearfix">
-  <div id="allSortOuterbox">
+  <div id="allSortOuterbox" class="display">
     <div class="t_menu_img"></div>
     <div class="Category"><a href="#"><em></em>所有零食分类</a></div>
     <div class="hd_allsort_out_box_new">
@@ -524,434 +568,150 @@
   </div>
 </div>
 </div>
-<!--幻灯片样式-->
-   	<div id="slideBox" class="slideBox">
-			<div class="hd">
-				<ul class="smallUl"></ul>
-			</div>
-			<div class="bd">
-				<ul>
-					<li><a href="Product_Detailed.jsp" target="_blank"><div style="background:url(AD/ad-1.jpg) no-repeat rgb(255, 227, 130); background-position:center; width:53%; height:460px;margin-left: 550px;"></div></a></li>
-					<li><a href="Product_Detailed.jsp" target="_blank"><div style="background:url(AD/ad-2.jpg) no-repeat rgb(245, 143, 120); background-position:center ; width:53%; height:460px;margin-left: 550px;"></div></a></li>
-					<li><a href="Product_Detailed.jsp" target="_blank"><div style="background:url(AD/ad-3.jpg) no-repeat rgb(199, 215, 161); background-position:center; width:53%; height:460px;margin-left: 550px;"></div></a></li>
-                    <li><a href="Product_Detailed.jsp" target="_blank"><div style="background:url(AD/ad-7.jpg) no-repeat #f7ddea; background-position:center; width:53%; height:460px;margin-left: 550px;"></div></a></li>
-                    <li><a href="Product_Detailed.jsp" target="_blank"><div style="background:url(AD/ad-6.jpg) no-repeat #F6F6F6; background-position:center; width:53%; height:460px;margin-left: 550px;"></div></a></li>
-				</ul>
-			</div>
-			<!-- 下面是前/后按钮代码，如果不需要删除即可 -->
-			<a class="prev" href="javascript:void(0)"></a>
-			<a class="next" href="javascript:void(0)"></a>
-
-		</div>
-		<script type="text/javascript">
-		jQuery(".slideBox").slide({titCell:".hd ul",mainCell:".bd ul",autoPlay:true,autoPage:true});
-		</script>
+<!--购物车样式-->
+<div class="Inside_pages clearfix">
+  <div class="shop_carts">
+   <div class="Process"><img src="images/Process_img_01.png" /></div>
+ <div class="Shopping_list">
+  <div class="title_name">
+    <ul>
+	<li class="checkbox"></li>
+	<li class="name">商品名称</li>
+	<li class="scj">市场价</li>
+	<li class="bdj">本店价</li>
+	<li class="sl">购买数量</li>
+	<li class="xj">小计</li>
+	<LI class="cz">操作</LI>
+  </ul>
  </div>
- <!--内容样式-->
- <div class="index_style">
-   <!--推荐图层样式-->
-  
-  <!--限时促销-->
-  <div class="Promotions_style">
-    <div class="title_name"><i class="iconfont icon-time"></i>限时促销<a href="#" >更多促销</a></div>
-    <div class="list">
-     <ul>
-      <li>
-      <a href="#" class="Promotions_img"><img src="products/p_4.jpg"  width="180" height="180"/></a>
-       <div class="Promotions_line"> 
-      <a href="#" class="name"> 好丽友 熊猫派派福巧克力味4枚 100g/盒</a>       
-       <div class="infostyle"><span class="Price"><b>￥</b>10.12</span><span class="Original_price">￥350.00</span></div>
-       <div class="time">剩余时间：19时34分23秒</div>
-       </div>
-      </li>
-       <li>
-      <a href="#" class="Promotions_img"><img src="products/p_5.jpg"  width="180" height="180"/></a>
-       <div class="Promotions_line"> 
-      <a href="#" class="name">蜀道香麻辣花生米188g 独立包装香酥果仁炒货下饭休闲零食坚果类</a>       
-       <div class="infostyle"><span class="Price"><b>￥</b>68.8</span><span class="Original_price">￥666.00</span></div>
-       <div class="time">剩余时间：5时34分23秒</div>
-       </div>
-      </li>
-       <li>
-      <a href="#" class="Promotions_img"><img src="products/p_6.jpg"  width="180" height="180"/></a>
-       <div class="Promotions_line"> 
-      <a href="#" class="name">三只松鼠_碧根果210gx2袋 零食坚果山核桃长寿果干果奶油味</a>       
-       <div class="infostyle"><span class="Price"><b>￥</b>23.15</span><span class="Original_price">￥300.00</span></div>
-       <div class="time">剩余时间：40时34分23秒</div>
-       </div>
-      </li>
-       <li>
-      <a href="#" class="Promotions_img"><img src="products/p_12.jpg"  width="180" height="180"/></a>
-       <div class="Promotions_line"> 
-      <a href="#" class="name">百草味-坚果大礼包1538g 坚果有礼干果礼盒装 组合零食送礼</a>       
-       <div class="infostyle"><span class="Price"><b>￥</b>188</span><span class="Original_price">￥450.00</span></div>
-       <div class="time">剩余时间：28时34分23秒</div>
-       </div>
-      </li>
-       <li>
-      <a href="#" class="Promotions_img"><img src="products/p_24.jpg"  width="180" height="180"/></a>
-       <div class="Promotions_line"> 
-      <a href="#" class="name">良品铺子零食大礼包坚果组合小吃混合装休闲食品每日干果店一整箱</a>       
-       <div class="infostyle"><span class="Price"><b>￥</b>168.68</span><span class="Original_price">￥520.00</span></div>
-       <div class="time">剩余时间：12时34分23秒</div>
-       </div>
-      </li>     
-     </ul>
-    </div>
+  <div class="shopping">
+  <form  method="post" action="">
+ <table class="table_list">
+   <tr class="tr">
+   <td class="checkbox"><input name="checkitems" type="checkbox" value="金龙鱼 东北大米 蟹稻共生 盘锦大米5KG" /></td>
+    <td class="name">
+	  <div class="img"><a href="#"><img src="products/p_1.jpg" /></a></div>
+	  <div class="p_name"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
+	</td>
+	<td class="scj sp"><span id="Original_Price_1">￥39.50</span></td>
+	<td class="bgj sp" ><span id="price_item_1">￥32.40</span></td>
+	<td class="sl">
+	    <div class="Numbers">
+		  <a onClick="setAmount.reduce('#qty_item_1')" href="javascript:void(0)" class="jian">-</a>
+          <input type="text" name="qty_item_" value="1" id="qty_item_1" onkeyup="setAmount.modify('#qty_item_1')" class="number_text">
+		  <a onclick="setAmount.add('#qty_item_1')" href="javascript:void(0)" class="jia">+</a>
+		 </div>
+	</td>
+	<td class="xj" ><span id="total_item_1"></span><input type="hidden" name="total_price" id="total_price" value=""></td>
+	<td class="cz">
+	 <p><a href="#">删除</a><P>
+	 <p><a href="#">收藏该商品</a></p>
+	</td>
+   </tr>
+       <tr class="tr on">
+       <td class="checkbox"><input name="checkitems" type="checkbox" value="金龙鱼 东北大米 蟹稻共生 盘锦大米5KG" /></td>
+      <td class="name">
+        <div class="img"><a href="#"><img src="products/p_1.jpg" /></a></div>
+        <div class="p_name"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
+      </td>
+      <td class="scj sp">￥39.50</td>
+      <td class="bgj sp" id="price_item_2">￥32.40</td>
+      <td class="sl">
+          <div class="Numbers">
+            <a onClick="setAmount.reduce('#qty_item_')" href="javascript:void(0)" class="jian">-</a>
+            <input type="text" name="qty_item_" value="1" id="qty_item_" onkeyup="setAmount.modify('#qty_item_')" class="number_text">
+            <a onclick="setAmount.add('#qty_item_')" href="javascript:void(0)" class="jia">+</a>
+           </div>
+      </td>
+      <td class="xj" ><span id="total_item_2"></span><input type="hidden" name="total_price" id="total_price" value=""></td>
+      <td class="cz">
+       <p><a href="#">删除</a><P>
+       <p><a href="#">收藏该商品</a></p>
+      </td>
+     </tr>
+ </table>
+ <div class="sp_Operation clearfix">
+  <div class="select-all">
+  <div class="cart-checkbox"><input type="checkbox"   id="CheckedAll" name="toggle-checkboxes" class="jdcheckbox" clstag="clickcart">全选</div>
+  <div class="operation"><a href="javascript:void(0);" id="send">删除选中的商品</a></div> 
+    </div>    
+	 <!--结算-->
+	<div class="toolbar_right">
+    <ul class="Price_Info">
+    <li class="p_Total"><label class="text">商品总价：</label><span class="price sumPrice" id="Total_price"></span></li>
+	<li class="Discount"><label class="text">以&nbsp;&nbsp;节&nbsp;&nbsp;省：</label><span class="price" id="Preferential_price"></span></li>
+    <li class="integral">本次购物可获得<b id="total_points"></b>积分</li>
+    </ul>
+	<div class="btn"><a class="cartsubmit" href="Orders_confirm.jsp"></a><a class="continueFind" href="product_list.jsp"></a></div>
   </div>
-  <div class="clearfix">
-   <div class="news_P">
-    <div class="slideTxtBox">
-		  <div class="parHd">
-				<!-- 下面是前/后按钮代码，如果不需要删除即可 -->
-				<span class="arrow"><a class="next"></a><a class="prev"></a></span>
-				<ul><li class="">最新订单</li><li class="on">商城新闻</li></ul>
-			</div>
-			<div class="parBd">
-				<ul class="Order_list">
-                 <div class="picMarquee-top">
-                 <div class="hd"></div>
-                   <div class="bd">
-                   <ul>
-					<li class="clearfix">                   
-                    <a href="#" target="_blank" class="img_link"><img src="products/p_4.jpg"  width="60" height="60"/></a>
-                    <a href="#" class="name">好丽友 熊猫派派福巧克力味4枚 100g/盒</a>
-                    <h2>总价：<b>￥10.12</b></h2>
-                    <h4>下单时间：2017年5月2日 12:43:03</h4>
-                    </li>	
-                    <li class="clearfix">                   
-                    <a href="#" target="_blank" class="img_link"><img src="products/p_56.jpg"  width="60" height="60"/></a>
-                    <a href="#" class="name">史努比（SNOOPY）净含量30克 梦系列薄荷糖（甜橙味）</a>
-                    <h2>总价：<b>￥123</b></h2>
-                    <h4>下单时间：2016年5月2日 12:43:03</h4>
-                    </li>
-                    <li class="clearfix">                   
-                    <a href="#" target="_blank" class="img_link"><img src="products/p_5.jpg"  width="60" height="60"/></a>
-                    <a href="#" class="name">蜀道香麻辣花生米188g 独立包装香酥果仁炒货下饭休闲零食坚果类</a>
-                    <h2>总价：<b>￥68.8</b></h2>
-                    <h4>下单时间：2017年7月2日 12:43:03</h4>
-                    </li>
-                    <li class="clearfix">                   
-                    <a href="#" target="_blank" class="img_link"><img src="products/肉松饼.jpg"  width="60" height="60"/></a>
-                    <a href="#" class="name">正宗友臣肉松饼2.5斤早餐面包整箱糕点心休闲小吃零食品批发散装</a>
-                    <h2>总价：<b>￥38.5</b></h2>
-                    <h4>下单时间：2017年10月2日 12:43:03</h4>
-                    </li>
-                    </ul>	
-                    </div>	
-                    </div>
-				 <script>jQuery(".slideTxtBox .picMarquee-top").slide({mainCell:".bd ul",autoPlay:true,effect:"topMarquee",vis:2,interTime:50,trigger:"click"});</script>
-				</ul>
-				<ul>
-					<li><a href="#" target="_blank">三只松鼠降价啦，快来抢购啊！</a></li>	
-                    <li><a href="#" target="_blank">最近有不法分子盗号，注意保护好账号！</a></li>	
-                    <li><a href="#" target="_blank">好丽友正在促销，抓紧购买！</a></li>	
-                    <li><a href="#" target="_blank">友臣肉松饼降价促销，大家快买啊！</a></li>	
-                    <li><a href="#" target="_blank">乐事薯片全新上市，新口味好吃！</a></li>	
-                    <li><a href="#" target="_blank">请大家理性购买！</a></li>	
-                    
-				</ul>				
-			</div>
-		</div>
-        <script type="text/javascript">jQuery(".slideTxtBox").slide({titCell:".parHd li",mainCell:".parBd"});</script>
-   </div>
-   <div class="Hot_p">
-   <!--热销产品-->
-   <div class="hot_silde">
-     <div class="hd"><em></em>热销产品<ul></ul></div>
-    <div class="bd">
-     <ul>
-      <li>
-        <a href="#" class="imglibk"><img src="products/p_1.jpg"  width="160" height="160"/></a>
-        <a href="#" class="name">新疆特产 一品玉和田大枣四星450g</a>
-        <div class="infostyle"><span class="Price"><b>￥</b>40.16</span><span class="Quantity">销售：<b>162</b>件</span></div>
-      </li>
-       <li>
-        <a href="#" class="imglibk"><img src="products/p_5.jpg"  width="160" height="160"/></a>
-        <a href="#" class="name">蜀道香麻辣花生米188g 独立包装香酥果仁炒货下饭休闲零食</a>
-        <div class="infostyle"><span class="Price"><b>￥</b>68.8</span><span class="Quantity">销售：<b>123</b>件</span></div>
-      </li>
-        <li>
-        <a href="#" class="imglibk"><img src="products/鸭脖.jpg"  width="160" height="160"/></a>
-        <a href="#" class="name">周黑鸭旗舰店正品香辣鸭脖子 鸭掌鸭翅鸭锁骨麻辣味武汉特产零食</a>
-        <div class="infostyle"><span class="Price"><b>￥</b>38.9</span><span class="Quantity">销售：<b>99</b>件</span></div>
-      </li>
-        <li>
-        <a href="#" class="imglibk"><img src="products/膨化食品.jpg"  width="160" height="160"/></a>
-        <a href="#" class="name">正宗咪咪虾条20g*40包办公室膨化食品休闲小吃批发儿童零食大礼包</a>
-        <div class="infostyle"><span class="Price"><b>￥</b>23.12</span><span class="Quantity">销售：<b>63</b>件</span></div>
-      </li>
-        <li>
-        <a href="#" class="imglibk"><img src="products/良品铺子_b.jpg"  width="160" height="160"/></a>
-        <a href="#" class="name">良品铺子零食大礼包组合一整箱好吃的混合装吃货膨化食品小吃批发</a>
-        <div class="infostyle"><span class="Price"><b>￥</b>60.12</span><span class="Quantity">销售：<b>60</b>件</span></div>
-      </li>
-        <li>
-        <a href="#" class="imglibk"><img src="products/薯片.jpg"  width="160" height="160"/></a>
-        <a href="#" class="name">乐事薯片黄瓜原味40g*10送女友整箱批发组合休闲膨化零食品大礼包</a>
-        <div class="infostyle"><span class="Price"><b>￥</b>58.12</span><span class="Quantity">销售：<b>86</b>件</span></div>
-      </li>
-        <li>
-        <a href="#" class="imglibk"><img src="products/肉松饼.jpg"  width="160" height="160"/></a>
-        <a href="#" class="name">正宗友臣肉松饼2.5斤早餐面包整箱糕点心休闲小吃零食品批发散装</a>
-        <div class="infostyle"><span class="Price"><b>￥</b>38.5</span><span class="Quantity">销售：<b>114</b>件</span></div>
-      </li>
-        <li>
-        <a href="#" class="imglibk"><img src="products/达利园.jpg"  width="160" height="160"/></a>
-        <a href="#" class="name">达利园草莓蛋黄派注心蛋糕1500g 早餐食品面包糕点心零食整箱批发</a>
-        <div class="infostyle"><span class="Price"><b>￥</b>32.9</span><span class="Quantity">销售：<b>168</b>件</span></div>
-      </li>
-     </ul>
-    </div>
+  </div>
+   </form>
+ </div>
+ </div>
+ <script type="text/javascript">
+ 	$(function(){
+ 		$('.jia').click(function(){
+ 			var num = $('.number_text').val();
+ 			num++;
+ 			$('.number_text').val(num);
+ 		});
+ 	});
+ </script>
+ <!--推荐产品样式-->
+ <div class="recommend_shop">
+   <div class="title_name">推荐购买</div>
+   <div class="recommend_list">
+    <div class="hd">
+     <a class="prev" href="javascript:void(0)">&gt;</a>
      <a class="next" href="javascript:void(0)">&lt;</a>
-      <a class="prev" href="javascript:void(0)">&gt;</a>
-   </div>
-      <script type="text/javascript">
-		jQuery(".hot_silde").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,scroll:4,vis:4,interTime:5000,trigger:"click"});
-		</script>
-   </div>
-  </div>
-  <div class="AD_tu"><a href="#"><img src="AD/ad-4.webp"  width="1200" height="120"/></a></div>
-  <!--产品类样式-->
-  <div class="product_Sort">
-   <div class="title_name"><span class="floor">坚果炒货</span><span class="name">水果蔬菜</span>
-   <span class="link_name"><a href="#">核桃</a> | <a href="#">花生</a> | <a href="#">开心果</a> | <a href="#">碧根果</a>| <a href="#">瓜子</a> | <a href="#">腰果</a></span></div>
-   <div class="Section_info clearfix">
-    <div class="product_AD">
-      <div class="pro_ad_slide"> 
-       <div class="bd">
-        <ul>
-        <li style="display: none;"><a href="#"><img src="AD/ad-11.jpg" width="398" height="469"></a></li>
-        </ul>
-       </div>
-     </div>
-     <script type="text/javascript">
-		jQuery(".pro_ad_slide").slide({titCell:".hd ul",mainCell:".bd ul",autoPlay:true,autoPage:true,interTime:6000});
-		</script>
     </div>
-    <!--产品列表-->
-    <div class="pro_list">
+    <div class="bd">
       <ul>
-       <li>
-        <a href="#"><img src="products/1F1.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">三只松鼠_坚果大礼包985g 零食干果特产礼盒4罐装 舌尖全球版</a>
-        <div class="Numeral"><span class="price"><i>￥</i>178.00</span><span class="Sales">销量<i>205</i>件</span></div>
+       <li class="recommend_info">
+       <a href="#" class="buy_btn">立即购买</a>
+       <a href="#" class="img"><img src="products/p_51.jpg" width="160px" height="160px"/></a>
+       <a href="#" class="name">光明莫斯利安酸牛奶 巴氏杀菌常温200g*12盒钻石装</a>
+       <h4><span class="Price"><i>RNB</i>123.00</span></h4>
        </li>
-       <li>
-        <a href="#"><img src="products/1F2.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">ileven 每日坚果 休闲零食果干 混合果仁 美9久 坚果礼盒2250g</a>
-        <div class="Numeral"><span class="price"><i>￥</i>275.00</span><span class="Sales">销量<i>102</i>件</span></div>
+       <li class="recommend_info">
+       <a href="#" class="buy_btn">立即购买</a>
+       <a href="#" class="img"><img src="products/p_52.jpg" width="160px" height="160px"/></a>
+       <a href="#" class="name">光明莫斯利安酸牛奶 巴氏杀菌常温200g*12盒钻石装</a>
+       <h4><span class="Price"><i>RNB</i>123.00</span></h4>
        </li>
-       <li>
-        <a href="#"><img src="products/1F3.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">好想你 903g缤纷坚果礼盒 腰果夏威夷果巴达木碧根果四种坚果</a>
-        <div class="Numeral"><span class="price"><i>￥</i>149.00</span><span class="Sales">销量<i>308</i>件</span></div>
+       <li class="recommend_info">
+       <a href="#" class="buy_btn">立即购买</a>
+       <a href="#" class="img"><img src="products/p_53.jpg" width="160px" height="160px"/></a>
+       <a href="#" class="name">光明莫斯利安酸牛奶 巴氏杀菌常温200g*12盒钻石装</a>
+       <h4><span class="Price"><i>RNB</i>123.00</span></h4>
        </li>
-       <li>
-        <a href="#"><img src="products/1F4.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">新品 百草味 90日鲜每日坚果750g 混合果仁孕妇零食礼盒装 30小袋装</a>
-        <div class="Numeral"><span class="price"><i>￥</i>139.00</span><span class="Sales">销量<i>285</i>件</span></div>
+       <li class="recommend_info">
+       <a href="#" class="buy_btn">立即购买</a>
+       <a href="#" class="img"><img src="products/p_54.jpg" width="160px" height="160px"/></a>
+       <a href="#" class="name">光明莫斯利安酸牛奶 巴氏杀菌常温200g*12盒钻石装</a>
+       <h4><span class="Price"><i>RNB</i>123.00</span></h4>
        </li>
-       <li>
-        <a href="#"><img src="products/1F5.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">三只松鼠混合果仁休闲零食大礼包每日坚果家庭款520g</a>
-        <div class="Numeral"><span class="price"><i>￥</i>123.00</span><span class="Sales">销量<i>345</i>件</span></div>
+       
+       <li class="recommend_info">
+       <a href="#" class="buy_btn">立即购买</a>
+       <a href="#" class="img"><img src="products/p_55.jpg" width="160px" height="160px"/></a>
+       <a href="#" class="name">光明莫斯利安酸牛奶 巴氏杀菌常温200g*12盒钻石装</a>
+       <h4><span class="Price"><i>RNB</i>123.00</span></h4>
        </li>
-       <li>
-        <a href="#"><img src="products/1F6.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">俏香阁零食大礼包礼盒 每日坚果礼盒干果中秋开心果 福玉满堂1761克</a>
-        <div class="Numeral"><span class="price"><i>￥</i>123.00</span><span class="Sales">销量<i>205</i>件</span></div>
+       <li class="recommend_info">
+       <a href="#" class="buy_btn">立即购买</a>
+       <a href="#" class="img"><img src="products/p_56.jpg" width="160px" height="160px"/></a>
+       <a href="#" class="name">光明莫斯利安酸牛奶 巴氏杀菌常温200g*12盒钻石装</a>
+       <h4><span class="Price"><i>RNB</i>123.00</span></h4>
        </li>
-       <li>
-        <a href="#"><img src="products/1F7.jpg" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">洽洽 坚果炒货 每日坚果即食板栗 开口甘栗120g/袋  </a>
-        <div class="Numeral"><span class="price"><i>￥</i>9.90</span><span class="Sales">销量<i>3405</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/1F8.jpg" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">ileven 休闲食品 紫皮腰果 原味大颗粒 坚果零食 烘焙腰果300g </a>
-        <div class="Numeral"><span class="price"><i>￥</i>69.00</span><span class="Sales">销量<i>145</i>件</span></div>
-       </li>
-      </ul>
-     </div>
-   </div> 
-  </div>
-  <div class="product_Sort">
-   <div class="title_name"><span class="floor">水饮冲调</span><span class="name">水果蔬菜</span>
-   <span class="link_name"><a href="#">果蔬饮料</a> | <a href="#">牛奶/酸奶</a> | <a href="#">饮用水</a> | <a href="#">功能饮料</a>| <a href="#">冲饮谷物</a> | <a href="#">咖啡/奶茶</a></span></div>
-   <div class="Section_info clearfix">
-    <div class="product_AD">
-      <div class="pro_ad_slide">
-       <div class="bd">
-        <ul>
-        <li style="display: none;"><a href="#"><img src="AD/ad-12.jpg" width="398" height="469"></a></li>
-        </ul>
-       </div>
-     </div>
-     <script type="text/javascript">
-		jQuery(".pro_ad_slide").slide({titCell:".hd ul",mainCell:".bd ul",autoPlay:true,autoPage:true,interTime:6000});
-		</script>
+      </ul>  
     </div>
-    <!--产品列表-->
-    <div class="pro_list">
-      <ul>
-       <li>
-        <a href="#"><img src="products/2F1.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">农夫山泉 饮用天然水380ml 1*24瓶 整箱</a>
-        <div class="Numeral"><span class="price"><i>￥</i>31.90</span><span class="Sales">销量<i>345</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/2F2.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">星巴克（Starbucks）星冰乐咖啡整箱281ml*6瓶 抹茶味奶茶饮料</a>
-        <div class="Numeral"><span class="price"><i>￥</i>85.00</span><span class="Sales">销量<i>312</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/2F3.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">屈臣氏（Watsons）1841 红葡萄桑格利亚（含酒精饮料）275mlx 24支/箱</a>
-        <div class="Numeral"><span class="price"><i>￥</i>330.00</span><span class="Sales">销量<i>201</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/2F4.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">可口可乐 汽水 1.98L(330ml*6)</a>
-        <div class="Numeral"><span class="price"><i>￥</i>14.5</span><span class="Sales">销量<i>1502</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/2F5.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">维他 柠檬茶250ml*16盒 整箱 柠檬味茶饮料</a>
-        <div class="Numeral"><span class="price"><i>￥</i>36.8</span><span class="Sales">销量<i>2045</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/2F6.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">麦斯威尔速溶咖啡随行收纳咖啡礼盒（咖啡色）</a>
-        <div class="Numeral"><span class="price"><i>￥</i>99.00</span><span class="Sales">销量<i>945</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/2F7.jpg" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">南方黑芝麻糊（精装）600g 经典黑芝麻（新老包装随机发货）</a>
-        <div class="Numeral"><span class="price"><i>￥</i>22.80</span><span class="Sales">销量<i>318</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/2F8.jpg" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">永和豆浆 经典原味豆浆粉350g（内含12小包）</a>
-        <div class="Numeral"><span class="price"><i>￥</i>19.60</span><span class="Sales">销量<i>630</i>件</span></div>
-       </li>
-      </ul>
-     </div>
-   </div> 
-  </div>
-    <div class="product_Sort">
-   <div class="title_name"><span class="floor">休闲零食</span><span class="name">水果蔬菜</span>
-   <span class="link_name"><a href="#">肉干</a> | <a href="#">豆干</a> | <a href="#">膨化</a> | <a href="#">辣条</a>| <a href="#">饼干/糕点</a> | <a href="#">果肉</a></span></div>
-   <div class="Section_info clearfix">
-    <div class="product_AD">
-      <div class="pro_ad_slide">
-       <div class="bd">
-        <ul>
-        <li style="display: none;"><a href="#"><img src="AD/ad-13.jpg" width="398" height="469"></a></li>
-        </ul>
-       </div>
-     </div>
-     <script type="text/javascript">
-		jQuery(".pro_ad_slide").slide({titCell:".hd ul",mainCell:".bd ul",autoPlay:true,autoPage:true,interTime:6000});
-		</script>
-    </div>
-    <!--产品列表-->
-    <div class="pro_list">
-      <ul> 
-       <li>
-        <a href="#"><img src="products/3F1.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">俏香阁 蜜饯果干组合60g（草莓脆20g/袋+黄桃脆20g/袋+苹果脆20g/袋）</a>
-        <div class="Numeral"><span class="price"><i>￥</i>19.40</span><span class="Sales">销量<i>625</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/3F2.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">百草味 零食炒货 坚果礼盒8袋装 夏威夷果 碧根果 纸皮核桃 坚果有礼大礼包1430g/盒</a>
-        <div class="Numeral"><span class="price"><i>￥</i>108.00</span><span class="Sales">销量<i>502</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/3F3.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">源氏 休闲零食 老式大辣片 辣条豆干 200g/袋</a>
-        <div class="Numeral"><span class="price"><i>￥</i>5.9</span><span class="Sales">销量<i>3405</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/3F4.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">良品铺子鸭舌 120g 甜辣鸭舌 酱鸭舌 零食小吃卤味肉类熟食新老包装交替发货 甜辣味</a>
-        <div class="Numeral"><span class="price"><i>￥</i>33.90</span><span class="Sales">销量<i>1345</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/3F5.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">沈大成 中华老字号百果松糕 桂花糖年糕 传统节日糕点点心 新春佳节礼盒 百果松糕380g</a>
-        <div class="Numeral"><span class="price"><i>￥</i>23.00</span><span class="Sales">销量<i>345</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/3F6.webp" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">Orion 好丽友 巧克力派14枚特惠装 476g/盒（20周年纪念版）</a>
-        <div class="Numeral"><span class="price"><i>￥</i>63.00</span><span class="Sales">销量<i>345</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/3F7.jpg" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">张飞 休闲零食 四川特产 小包装豆干豆腐干（五香味）148g </a>
-        <div class="Numeral"><span class="price"><i>￥</i>12.80</span><span class="Sales">销量<i>3405</i>件</span></div>
-       </li>
-       <li>
-        <a href="#"><img src="products/3F8.jpg" width="180px" height="160px"></a>
-        <a href="#" class="p_title_name">淘豆（TAODO）休闲零食 传统点心糕点美食酥饼 散装小包 黑糖小麻花400g </a>
-        <div class="Numeral"><span class="price"><i>￥</i>13.9</span><span class="Sales">销量<i>3405</i>件</span></div>
-       </li>
-      </ul>
-     </div>
-   </div> 
-  </div>
-  <!--猜你喜欢样式-->
-<div class="like_p">
-    <div class="title_name"><span>猜你喜欢</span></div>
-    <div class="list">
-      <ul class="list_style">
-       <li class="p_info_u">
-        <a href="#" class="p_img"><img src="products/奶茶.jpg"></a>
-        <a href="#" class="name">香飘飘奶茶 美味升级20杯 早餐冲饮奶茶粉代餐饮料速溶礼盒</a>
-        <div class="Numeral"><span class="price"><i>￥</i>64.00</span><span class="Sales">销量<i>215</i>件</span></div>
-       </li>
-         <li class="p_info_u">
-        <a href="#" class="p_img"><img src="products/p_15.jpg"></a>
-        <a href="#" class="name">和田玉枣 二级红枣500g 新疆特产大红枣子 零食果干</a>
-        <div class="Numeral"><span class="price"><i>￥</i>35.60</span><span class="Sales">销量<i>1025</i>件</span></div>
-       </li>
-         <li class="p_info_u">
-        <a href="#" class="p_img"><img src="products/p_16.jpg"></a>
-        <a href="#" class="name">宁夏果脯500g休闲年货零食小吃 蜜饯 水果干果脯</a>
-        <div class="Numeral"><span class="price"><i>￥</i>23.00</span><span class="Sales">销量<i>2045</i>件</span></div>
-       </li>
-         <li class="p_info_u">
-        <a href="#" class="p_img"><img src="products/果冻.jpg"></a>
-        <a href="#" class="name">喜之郎果汁果冻360g*5袋 什锦乳酸果冻批发 办公室休闲零食整箱</a>
-        <div class="Numeral"><span class="price"><i>￥</i>19.00</span><span class="Sales">销量<i>645</i>件</span></div>
-       </li>
-         <li class="p_info_u">
-        <a href="#" class="p_img"><img src="products/巧克力.jpg"></a>
-        <a href="#" class="name">官网正品德芙巧克力丝滑4.5g4斤结婚喜糖果散装礼盒婚庆批发包邮</a>
-        <div class="Numeral"><span class="price"><i>￥</i>169.00</span><span class="Sales">销量<i>545</i>件</span></div>
-       </li>
-         <li class="p_info_u">
-        <a href="#" class="p_img"><img src="products/糖.jpg"></a>
-        <a href="#" class="name">十四行诗手工牛轧糖600g礼盒 结婚喜糖伴手礼糖果零食节日送礼</a>
-        <div class="Numeral"><span class="price"><i>￥</i>103.00</span><span class="Sales">销量<i>666</i>件</span></div>
-       </li>
-        <li class="p_info_u">
-        <a href="#" class="p_img"><img src="products/饼干.jpg"></a>
-        <a href="#" class="name">【白色恋人24枚】黑白混合巧克力夹心饼干日本北海道进口零食新鲜</a>
-        <div class="Numeral"><span class="price"><i>￥</i>128.00</span><span class="Sales">销量<i>1075</i>件</span></div>
-       </li>
-        <li class="p_info_u">
-        <a href="#" class="p_img"><img src="products/咸鸭蛋饼干.jpg"></a>
-        <a href="#" class="name">台湾进口TATA榙榙咸鸭蛋黄饼干桶装520g休闲零食品代餐饼干糕点</a>
-        <div class="Numeral"><span class="price"><i>￥</i>45.80</span><span class="Sales">销量<i>745</i>件</span></div>
-       </li>
-      </ul>
-    </div>
-  </div>
-  </div>
-  <div class="slogen">
+   </div>
+   <script>jQuery(".recommend_list").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:6});</script>
+ </div>
+ </div>
+</div>
+ <div class="slogen">
   <div class="index_style">
     <ul class="wrap">
 	 <li>
@@ -979,7 +739,7 @@
 <!--底部图层-->
 <div class="phone_style">
  <div class="index_style">
-   <span class="phone_number"><em class="iconfont icon-dianhua"></em>185-5963-8538</span><span class="phone_title">客服热线 7X24小时 贴心服务</span>
+  <span class="phone_number"><em class="iconfont icon-dianhua"></em>185-5963-8538</span><span class="phone_title">客服热线 7X24小时 贴心服务</span>
  </div>
 </div>
 <div class="footerbox clearfix">
@@ -1026,7 +786,7 @@
  <div class="text_link">
    <p>
   <a href="#">关于我们</a>｜ <a href="#">公开信息披露</a>｜ <a href="#">加入我们</a>｜ <a href="#">联系我们</a>｜ <a href="#">版权声明</a>｜ <a href="#">隐私声明</a>｜ <a href="#">网站地图</a></p>
-	 <p>蜀ICP备11017033号 Copyright ©2011 厦门海艺大厦2007食品有限公司 All Rights Reserved. Technical support:CDDGG Group</p>
+	 <p>蜀ICP备11017033号 Copyright ©2011 成都福际生物技术有限公司 All Rights Reserved. Technical support:CDDGG Group</p>
   </div>
   </div>
    <!--右侧菜单栏购物车样式-->
@@ -1043,21 +803,19 @@
         <div class="bjfffs"></div>
         <dl onclick="javascript:;">
 		    <dt><img src="images/Service1.png"></dt>
-		          <dd><strong>QQ客服1</strong>
-		            <p class="p1">&nbsp;&nbsp;9:00-22:00</p>
-		            <p class="p1"></p>
-		            <p class="p1">&nbsp;&nbsp;&nbsp;请扫码联系</p>	           
+		       <dd><strong>QQ客服1</strong>
+		          <p class="p1">9:00-22:00</p>
+		           <p class="p2"><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=123456&amp;site=DGG三端同步&amp;menu=yes">点击交谈</a></p>
 		          </dd>
 		        </dl>
 				<dl onclick="javascript:;">
-		          <dt><img src="images/Service2.png"></dt>
-		          <dd> <strong>QQ客服2</strong>
-		            <p class="p1">&nbsp;&nbsp;9:00-22:00</p>
-		            <p class="p1"></p>
-		            <p class="p1">&nbsp;&nbsp;&nbsp;请扫码联系</p>
+		          <dt><img src="images/Service1.png"></dt>
+		          <dd> <strong>QQ客服1</strong>
+		            <p class="p1">9:00-22:00</p>
+		            <p class="p2"><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=123456&amp;site=DGG三端同步&amp;menu=yes">点击交谈</a></p>
 		          </dd>
-		</dl>
-	  </div>
+		        </dl>
+	          </div>
     </li>
     <li class="fixeBoxLi BackToTop"> <span class="fixeBoxSpan iconfont icon-top"></span> <strong>返回顶部</strong> </li>
   </ul>
