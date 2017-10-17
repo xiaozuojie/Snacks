@@ -13,7 +13,6 @@
 	<title>用户登录</title>
 </head>
 
-
 <body>
 	<div class="Reg_log_style">
 		<div class="logo">
@@ -53,6 +52,7 @@
 						</div>
 						<div class="center clearfix">
 							<a class="btn_pink" id="btn_signin" type="button"
+
 								href="javascript:document.getElementById('myform').submit();">立即登录</a>
 						</div>
 					</div>

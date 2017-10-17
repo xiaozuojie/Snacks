@@ -623,21 +623,21 @@
 	  <div class="Recommend_list">
 	    <ul>
 		 <li class="clearfix">
-		 <div class="pic_img"><a href=""><img src="Products/p_53.jpg" data-bd-imgshare-binded="1"></a></div>
+		 <div class="pic_img"><a href=""><img src="products/p_53.jpg" data-bd-imgshare-binded="1"></a></div>
 		 <div class="r_content">
 			<div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
 			<div class="p_Price">￥32.50</div>
           </div>
 		 </li>
 		  <li class="clearfix">
-		 <div class="pic_img"><a href=""><img src="Products/p_57.jpg" data-bd-imgshare-binded="1"></a></div>
+		 <div class="pic_img"><a href=""><img src="products/p_57.jpg" data-bd-imgshare-binded="1"></a></div>
 		 <div class="r_content">
 			<div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
 			<div class="p_Price">￥32.50</div>
           </div>
 		 </li>
 		  <li class="clearfix">
-		 <div class="pic_img"><a href=""><img src="Products/p_24.jpg" data-bd-imgshare-binded="1"></a></div>
+		 <div class="pic_img"><a href=""><img src="products/p_24.jpg" data-bd-imgshare-binded="1"></a></div>
 		 <div class="r_content">
 			<div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
 			<div class="p_Price">￥32.50</div>
@@ -656,21 +656,21 @@
 	 <ul>
 	  <li>
 	   <a href="#">
-	   <p><img src="Products/p_4.jpg" data-bd-imgshare-binded="1"></p>
+	   <p><img src="products/p_4.jpg" data-bd-imgshare-binded="1"></p>
 	   <p class="p_name">SanmiuSunflower新苗向日葵 乳酪夹心饼干 270g 菲律宾进口</p>
 	   </a>
 	   <p><span class="p_Price"><i>￥</i>5.30</span><b>10.4</b></p>
 	  </li>
 	  <li>
 	   <a href="#">
-	   <p><img src="Products/p_5.jpg" data-bd-imgshare-binded="1"></p>
+	   <p><img src="products/p_5.jpg" data-bd-imgshare-binded="1"></p>
 	   <p class="p_name">商品名称</p>
 	   </a>
 	   <p><span class="p_Price"><i>￥</i>5.30</span><b>10.4</b></p>
 	  </li>
 	  <li>
 	   <a href="#">
-	   <p><img src="Products/p_51.jpg" data-bd-imgshare-binded="1"></p>
+	   <p><img src="products/p_51.jpg" data-bd-imgshare-binded="1"></p>
 	   <p class="p_name">商品名称</p>
 	   </a>
 	   <p><span class="p_Price"><i>￥</i>5.30</span><b>10.4</b></p>

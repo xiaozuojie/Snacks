@@ -533,36 +533,43 @@
   <div class=" left">
   <div class="picFocus">
 			<div class="bd">
-				<ul>
-					<li><a target="_blank" href="#"><img src="big/01.jpg" /></a></li>
-					<li><a target="_blank" href="#"><img src="big/02.jpg" /></a></li>
-					<li><a target="_blank" href="#"><img src="big/03.jpg" /></a></li>
-					<li><a target="_blank" href="#"><img src="big/04.jpg" /></a></li>
-                    <li><a target="_blank" href="#"><img src="big/05.jpg" /></a></li>
-				</ul>
-			</div>
-			<div class="hd">
-				<ul>
-					<li><img src="small/01.jpg" /></li>
-					<li><img src="small/02.jpg" /></li>
-					<li><img src="small/03.jpg" /></li>
-					<li><img src="small/04.jpg" /></li>
-                    <li><img src="small/05.jpg" /></li>
-				</ul>
+				
+					<img src="mid/01.jpg" />
+					
+				
 			</div>
 		</div>
-		<script type="text/javascript">jQuery(".picFocus").slide({ mainCell:".bd ul",autoPlay:false });</script>
   </div>
   <div class="left main_box">
   <h2 class="title">[免费领券][新品限量买一送一]好莱奴2015夏新款欧美铆钉pu双肩包女夏韩版女士休闲背包书包（每个ID限购5件）</h2>
    <div class="time">
    <div class="icon_time"></div>还剩: 2天21小时34分27.6秒</div>    
    <div class="Numbers">购买数量
-		  <a href="javascript:void(0);" onclick="updatenum('del');">-</a>
+		  <a href="javascript:void(0);" id="del">-</a>
 		  <input id="number" name="number" type="text" value="1" class="number_text">
-		  <a href="javascript:void(0);" onclick="updatenum('del');">+</a> 
+		  <a href="javascript:void(0);" id="add">+</a> 
 		  <span>最多购买五件商品</span>
 		 </div>
+		 <script type="text/javascript">
+		 	$(function(){
+		 		$("#add").click(function(){
+		 			var num = $("#number").val();
+		 			num++;
+		 			if (num>5) {
+		 				num=5;
+		 			}
+		 			$("#number").val(num);
+		 		});
+		 		$("#del").click(function(){
+		 			var num = $("#number").val();
+		 			num--;
+		 			if (num<1) {
+		 				num=1;
+		 			}
+		 			$("#number").val(num);
+		 		});
+		 	});
+		 </script>
   <div class="status_banner">
    <div class="currentPrice"> <small>¥</small>138.00 </div>
      <div class="left"><del class="originPrice">¥596.00</del></div>
@@ -586,21 +593,21 @@
 	 <ul>
 	  <li>
 	   <a href="#">
-	   <p><img src="Products/p_4.jpg" data-bd-imgshare-binded="1"></p>
+	   <p><img src="products/p_4.jpg" data-bd-imgshare-binded="1"></p>
 	   <p class="p_name">SanmiuSunflower新苗向日葵 乳酪夹心饼干 270g 菲律宾进口</p>
 	   </a>
 	   <p><span class="p_Price"><i>￥</i>5.30</span><b>10.4</b></p>
 	  </li>
 	  <li>
 	   <a href="#">
-	   <p><img src="Products/p_5.jpg" data-bd-imgshare-binded="1"></p>
+	   <p><img src="products/p_5.jpg" data-bd-imgshare-binded="1"></p>
 	   <p class="p_name">商品名称</p>
 	   </a>
 	   <p><span class="p_Price"><i>￥</i>5.30</span><b>10.4</b></p>
 	  </li>
 	  <li>
 	   <a href="#">
-	   <p><img src="Products/p_51.jpg" data-bd-imgshare-binded="1"></p>
+	   <p><img src="products/p_51.jpg" data-bd-imgshare-binded="1"></p>
 	   <p class="p_name">商品名称</p>
 	   </a>
 	   <p><span class="p_Price"><i>￥</i>5.30</span><b>10.4</b></p>
