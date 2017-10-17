@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
+encoding//WebContent/Home.jsp=UTF-8
 encoding//WebContent/Registered.jsp=UTF-8
+encoding//src/TestDao/test1.java=GBK
+encoding/<project>=gbk

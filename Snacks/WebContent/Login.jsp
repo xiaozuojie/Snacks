@@ -94,7 +94,7 @@
 						</div>
 						<div class="center clearfix">
 							<a class="btn_pink" id="btn_signin" type="button"
-								href="javascript:void(0)">立即登录</a>
+								href="Home.jsp">立即登录</a>
 						</div>
 					</div>
 			</form>
