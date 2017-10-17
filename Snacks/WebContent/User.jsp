@@ -106,16 +106,16 @@
 			 <dd><a href="#"> 巴旦木仁</a><a href="#"> 薄壳巴旦木</a><a href="#">新疆巴旦木</a><a href="#">双果巴旦木</a><a href="#">克西巴旦木</a></dd> 
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>   
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -161,16 +161,16 @@
 			 <dd><a href="#"> 辣条</a><a href="#"> 肉松饼</a><a href="#">星球杯</a><a href="#">绝味鸭脖</a><a href="#">泡椒凤爪</a></dd> 
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>   
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>   
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -215,16 +215,16 @@
 			 <dt><a href="#">栗子<i>></i></a></dt>
 			 <dd><a href="#"> 百草味</a><a href="#"> 良品铺子</a><a href="#">三只松鼠</a><a href="#">
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a> 
+		  <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a> 
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -270,16 +270,16 @@
 			 <dd><a href="#"> 康师傅</a><a href="#"> 统一</a><a href="#">娃哈哈</a><a href="#"> 
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>  
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -325,16 +325,16 @@
 			 <dd><a href="#"> 马卡龙</a><a href="#"> 提拉米苏</a><a href="#">三明治</a><a href="#">慕斯</a><a href="#">
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a> 
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -380,16 +380,16 @@
 			 <dd><a href="#"> 喜之郎</a><a href="#"> 蜡笔小新</a><a href="#">亲亲</a><a href="#">
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>  
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -435,16 +435,16 @@
 			 <dd><a href="#"> 春光椰子糖</a><a href="#"> 南国香酥椰片</a><a href="#">
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -490,16 +490,16 @@
 			 <dd><a href="#"> 妙妙虾味片</a><a href="#">马奇新蛋卷酥 </a><a href="#">
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -558,6 +558,7 @@
       <dt class="transaction_manage"><em class="icon_2"></em>用户中心</dt>
         <dd>
       <ul>
+      	<li> <a href="User.jsp"> 个人中心</a></li>
         <li> <a href="User_Personalinfo.jsp"> 用户信息</a></li>
         <li> <a href="User_changePassword.jsp"> 修改密码</a></li>
         <li> <a href="User_address.jsp">收货地址</a></li>
@@ -649,63 +650,63 @@
                 <ul >
                 <li class="clone">
                         <div class="p_width">
-                    <div class="pic"><a href=""><img src="Products/P_51.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_51.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
-                    <div class="Purchase_info"><span class="p_Price">￥32.50</span> <a href="#" class="Purchase">立即购买</a></div>
+                    <div class="Purchase_info"><span class="p_Price">￥31.50</span> <a href="#" class="Purchase">立即购买</a></div>
                 </div>	
                     </li>
                 <li >
                 <div class="p_width">
-                    <div class="pic"><a href=""><img src="Products/P_52.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_52.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="Purchase_info"><span class="p_Price">￥32.50</span> <a href="#" class="Purchase">立即购买</a></div>
                 </div>		
                 </li>
                     <li >
                         <div class="p_width">
-                    <div class="pic"><a href=""><img src="products/P_53.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_53.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="Purchase_info"><span class="p_Price">￥32.50</span> <a href="#" class="Purchase">立即购买</a></div>
                 </div>	
                     </li>
                     <li >
                         <div class="p_width">
-                    <div class="pic"><a href=""><img src="products/P_54.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_54.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="Purchase_info"><span class="p_Price">￥32.50</span> <a href="#" class="Purchase">立即购买</a></div>
                 </div>							
                     </li>
                     <li>
                         <div class="p_width">
-                    <div class="pic"><a href=""><img src="products/P_5.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_5.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="Purchase_info"><span class="p_Price">￥32.50</span> <a href="#" class="Purchase">立即购买</a></div>
                 </div>							
                     </li>
                         <li>
                         <div class="p_width">
-                    <div class="pic"><a href=""><img src="products/P_58.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_58.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="Purchase_info"><span class="p_Price">￥32.50</span> <a href="#" class="Purchase">立即购买</a></div>
                 </div>				
                     </li>
                         <li >
                         <div class="p_width">
-                    <div class="pic"><a href=""><img src="products/P_56.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_56.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="Purchase_info"><span class="p_Price">￥32.50</span> <a href="#" class="Purchase">立即购买</a></div>
                 </div>	
                     </li>
                         <li>
                         <div class="p_width">
-                    <div class="pic"><a href=""><img src="products/P_56.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_56.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="Purchase_info"><span class="p_Price">￥32.50</span> <a href="#" class="Purchase">立即购买</a></div>
                 </div>	
                     </li>
                     <li class="clone" >
                 <div class="p_width">
-                    <div class="pic"><a href=""><img src="products/P_57.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_57.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="Purchase_info"><span class="p_Price">￥32.50</span> <a href="#" class="Purchase">立即购买</a></div>
                 </div>		
@@ -723,62 +724,63 @@
         <div class="bd">
             <ul >
               <li>
-                    <div class="pic"><a href=""><img src="Products/P_50.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_50.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>		
                 </li>
                 <li s>
-                    <div class="pic"><a href=""><img src="Products/P_51.jpg"></a></div>
+                    <div class="pic"><a href=""><img src="products/p_51.jpg"></a></div>
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>
                 </li>
                 <li >
-                    <div class="pic"><a href=""><img src="Products/P_52.jpg"></a></div>	
-                    <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
+                    <div class="pic"><a href=""><img src="products/p_52.jpg"></a></div>	
+                    <div class="title"><a href="#">金龙鱼 东北大
+                    米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>							
                 </li>
                 <li>
-                    <div class="pic"><a href=""><img src="Products/P_53.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_53.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>								
                 </li>
                     <li >
-                    <div class="pic"><a href=""><img src="Products/P_54.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_54.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>					
                 </li>
                     <li >
-                    <div class="pic"><a href=""><img src="Products/P_55.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_55.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>		
                 </li>
                     <li>
-                    <div class="pic"><a href=""><img src="Products/P_56.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_56.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>		
                 </li>
                 <li>
-                    <div class="pic"><a href=""><img src="Products/P_57.jpg"></a></div>
+                    <div class="pic"><a href=""><img src="products/p_57.jpg"></a></div>
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>
                 </li>
                 <li >
-                    <div class="pic"><a href=""><img src="Products/P_58.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_58.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>							
                 </li>
                 <li >
-                    <div class="pic"><a href=""><img src="Products/P_50.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_50.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>								
                 </li>
                 <li >
-                    <div class="pic"><a href=""><img src="Products/P_51.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_51.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>					
                 </li>
                 <li >
-                    <div class="pic"><a href=""><img src="Products/P_52.jpg"></a></div>	
+                    <div class="pic"><a href=""><img src="products/p_52.jpg"></a></div>	
                     <div class="title"><a href="#">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</a></div>
                     <div class="p_Price">￥32.50</div>		
                 </li>

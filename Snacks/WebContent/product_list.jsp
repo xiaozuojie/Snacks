@@ -136,16 +136,16 @@
 			 <dd><a href="#"> 巴旦木仁</a><a href="#"> 薄壳巴旦木</a><a href="#">新疆巴旦木</a><a href="#">双果巴旦木</a><a href="#">克西巴旦木</a></dd> 
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>   
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>  
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -191,16 +191,16 @@
 			 <dd><a href="#"> 辣条</a><a href="#"> 肉松饼</a><a href="#">星球杯</a><a href="#">绝味鸭脖</a><a href="#">泡椒凤爪</a></dd> 
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>   
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>  
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -245,16 +245,16 @@
 			 <dt><a href="#">栗子<i>></i></a></dt>
 			 <dd><a href="#"> 百草味</a><a href="#"> 良品铺子</a><a href="#">三只松鼠</a><a href="#">
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a> 
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -300,16 +300,16 @@
 			 <dd><a href="#"> 康师傅</a><a href="#"> 统一</a><a href="#">娃哈哈</a><a href="#"> 
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>  
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -355,16 +355,16 @@
 			 <dd><a href="#"> 马卡龙</a><a href="#"> 提拉米苏</a><a href="#">三明治</a><a href="#">慕斯</a><a href="#">
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a> 
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -410,16 +410,16 @@
 			 <dd><a href="#"> 喜之郎</a><a href="#"> 蜡笔小新</a><a href="#">亲亲</a><a href="#">
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>  
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -465,16 +465,16 @@
 			 <dd><a href="#"> 春光椰子糖</a><a href="#"> 南国香酥椰片</a><a href="#">
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -520,16 +520,16 @@
 			 <dd><a href="#"> 妙妙虾味片</a><a href="#">马奇新蛋卷酥 </a><a href="#">
 			</dl>
 		   </div><div class="Brands">
-		   <a href="#" class="logo_Brands"><img src="products/logo/百草味.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/达利园.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/德芙.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/好丽友.jpg" /></a>
-		   <a href="#" class="logo_Brands"><img src="products/logo/乐事.jpg" /></a>
-           <a href="#" class="logo_Brands"><img src="products/logo/双汇.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/旺旺.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/卫龙.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/徐福记.jpg" /></a>	
-           <a href="#" class="logo_Brands"><img src="products/logo/喜之郎.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/bwc.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/dly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/df.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/hly.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="products/logo/ls.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="products/logo/sh.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/ww.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/wl.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xfj.jpg" /></a>	
+           <a href="#" class="logo_Brands"><img src="products/logo/xzl.jpg" /></a>
 		  </div>
 		  </div>
 		  <!--品牌-->		  
@@ -559,7 +559,7 @@
  <!--位置-->
   <div class="Location_link">
   <em></em><a href="#">进口食品、进口牛</a>  &lt;   <a href="#">进口饼干/糕点</a>  
- </div>
+ </			div>
     <!--筛选样式-->
    <div id="Filter_style">
      <!--推荐-->
@@ -868,7 +868,7 @@ $(function() {
     <li class="gl-item">
     <em class="icon_special tejia"></em>
 	<div class="Borders">
-	 <div class="img"><a href="Product_Detailed.jsp"><img src="products/P_1.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="Product_Detailed.jsp"><img src="products/p_1.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="Product_Detailed.jsp">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -881,7 +881,7 @@ $(function() {
 	<li class="gl-item">
     <em class="icon_special tejia"></em>
 	<div class="Borders">
-	 <div class="img"><a href="Product_Detailed.jsp"><img src="products/P_51.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="Product_Detailed.jsp"><img src="products/p_51.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="Product_Detailed.jsp">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -894,7 +894,7 @@ $(function() {
 	<li class="gl-item">
     <em class="icon_special tejia"></em>
 	<div class="Borders">
-	 <div class="img"><a href="Product_Detailed.jsp"><img src="products/P_52.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="Product_Detailed.jsp"><img src="products/p_52.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="Product_Detailed.jsp">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -906,7 +906,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="Product_Detailed.jsp"><img src="products/P_4.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="Product_Detailed.jsp"><img src="products/p_4.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="Product_Detailed.jsp">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -919,7 +919,7 @@ $(function() {
 	<li class="gl-item">
     <em class="icon_special xinping"></em>
 	<div class="Borders">
-	 <div class="img"><a href="Product_Detailed.jsp"><img src="products/P_5.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="Product_Detailed.jsp"><img src="products/p_5.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="Product_Detailed.jsp">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -931,7 +931,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="#"><img src="products/P_6.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="#"><img src="products/p_6.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -943,7 +943,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="#"><img src="products/P_54.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="#"><img src="products/p_54.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -955,7 +955,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="#"><img src="products/P_15.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="#"><img src="products/p_15.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -967,7 +967,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="#"><img src="products/P_55.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="#"><img src="products/p_55.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -979,7 +979,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="#"><img src="products/P_56.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="#"><img src="products/p_56.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -991,7 +991,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="#"><img src="products/P_11.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="#"><img src="products/p_11.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -1003,7 +1003,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="#"><img src="products/P_16.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="#"><img src="products/p_16.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -1015,7 +1015,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="#"><img src="products/P_16.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="#"><img src="products/p_16.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -1027,7 +1027,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="#"><img src="products/P_57.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="#"><img src="products/p_57.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
@@ -1039,7 +1039,7 @@ $(function() {
 	</li>
 	<li class="gl-item">
 	<div class="Borders">
-	 <div class="img"><a href="#"><img src="products/P_15.jpg" style="width:220px;height:220px"></a></div>
+	 <div class="img"><a href="#"><img src="products/p_15.jpg" style="width:220px;height:220px"></a></div>
 	 <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
 	 <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
 	 <div class="Review">已有<a href="#">2345</a>评论</div>
