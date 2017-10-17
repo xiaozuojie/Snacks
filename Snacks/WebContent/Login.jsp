@@ -34,7 +34,7 @@
 							$(".msg").text("用户名正确");
 							$(".msg1").text("密码错误，注意大小写区分！");
 						} else if(data == "用户名正确用户密码正确")  {
-							window.location.href='Login1.jsp';	
+							window.location.href='Home.jsp';	
 							$(".msg").text("");
 							$(".msg1").text("登入成功");
 							}
@@ -94,7 +94,7 @@
 						</div>
 						<div class="center clearfix">
 							<a class="btn_pink" id="btn_signin" type="button"
-								href="Home.jsp">立即登录</a>
+								href="javascript:void(0)">立即登录</a>
 						</div>
 					</div>
 			</form>
