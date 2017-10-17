@@ -1,3 +1,4 @@
+<%@page import="javax.swing.JOptionPane"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -16,17 +17,24 @@
 <script src="js/footer.js" type="text/javascript"></script>
 <title>用户订单</title>
 </head>
-
+    
+<%
+   //访问控制 判断session中是否有登录信息 如果没有，则跳转到登录界面去
+   if(session.getAttribute("buyersname")==null)
+   {
+	   //重定向
+	
+JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", JOptionPane.ERROR_MESSAGE); 
+	   response.sendRedirect("Login.jsp");
+   }
+ %>
 <body>
 <!--顶部样式-->
  <div id="header_top">
   <div id="top">
     <div class="Inside_pages">
-      <div class="Collection">欢迎光临零食e站！</div>
+     <div class="Collection"></>欢迎 <%=session.getAttribute("buyersname") %>小主 的光临~</div>
 	<div class="hd_top_manu clearfix">
-	  <ul class="clearfix">
-	   <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！<a href="Login.jsp" class="red">[请登录]</a> 新用户<a href="Registered.jsp" class="red">[免费注册]</a></li>
-	  </ul>
 	</div>
     </div>
   </div>

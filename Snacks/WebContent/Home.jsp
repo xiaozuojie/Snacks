@@ -1,5 +1,7 @@
+<%@page import="javax.swing.JOptionPane"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -13,13 +15,20 @@
 <script src="js/footer.js" type="text/javascript"></script>
 <title>网站首页</title>
 </head>
-
+<%
+   //访问控制 判断session中是否有登录信息 如果没有，则跳转到登录界面去
+   if(session.getAttribute("buyersname")!=null)
+   {
+	   //重定向
+	   response.sendRedirect("Home_login.jsp");
+   }
+ %>
 <body>
 <!--顶部样式-->
  <div id="header_top">
   <div id="top">
     <div class="Inside_pages">
-      <div class="Collection">欢迎光临零食e站！<em></em><a href="#">收藏我们</a></div>
+      <div class="Collection" >欢迎光临零食e站！<em></em><a href="#">收藏我们</a></div>
 	<div class="hd_top_manu clearfix">
 	  <ul class="clearfix">
 	   <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！<a href="Login.jsp" class="red">[请登录]</a> 新用户<a href="Registered.jsp" class="red">[免费注册]</a></li>

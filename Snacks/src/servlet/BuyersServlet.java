@@ -10,6 +10,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+
 
 import entity.Buyers;
 import service.BuyersService;
@@ -42,51 +45,39 @@ public class BuyersServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// 设置编码
-		response.setCharacterEncoding("utf-8");
-		request.setCharacterEncoding("utf-8");
-		String buyersname = request.getParameter("buyersname");
-		String password = request.getParameter("password");
-		PrintWriter out = response.getWriter();
-		// buyersname = new String(buyersname.getBytes("iso-8859-1"),"utf-8");
-		// 调用service dao
-		List<Buyers> list = new ArrayList<Buyers>();
-		list = bs.getAlluser();
-		boolean flag = false;
-		// 验证用户名是否存在
-		for (Buyers buyers : list) {
-			if (buyersname.equals(buyers.getBUYERS_ACCOUNT())) {
-				// 使用printWriter来打印输出
-				flag = true;
-			}
-		}
+		// TODO Auto-generated method stub
+				request.setCharacterEncoding("utf-8");
 
-		if (flag == true) {
-			//打印输出用户名正确
-			out.print("用户名正确");
-		}else {
-			out.print("用户名错误");
-		}
-	
-		// 验证用户名密码是否正确
-		boolean flag1 = false;
-		//遍历查看用户的用户名和密码是否正确
-		for (Buyers buyers : list) {
-			if (buyersname.equals(buyers.getBUYERS_ACCOUNT()) && password.equals(buyers.getBUYERS_PWD())) {
-				flag1 = true;
-			}
-		}
-		//如果用户名和密码正确则这边打印输出
-		if (flag1 == true) {
-			out.print("用户密码正确");
+				String buyersname = request.getParameter("buyersname");
 
-		} else {
-			out.print("用户密码错误");
-		}
-        // 使用完关闭资源
-		 out.close();
-	}
-        
+				String buyerspwd = request.getParameter("buyerspwd");
+				
+				Buyers u = new Buyers();
+				u.setBUYERS_ID(1);
+				u.setBUYERS_ACCOUNT(buyersname);
+				// 调用service  完成查询
+				List<Buyers> list=new ArrayList<Buyers>();				
+			    list=bs.getAlluser();
+			   boolean flag=false;
+			    for (Buyers buyers : list) {
+					if (buyersname.equals(buyers.getBUYERS_ACCOUNT())&&buyerspwd.equals(buyers.getBUYERS_PWD())) {
+						flag=true;
+					}
+				}
+			    if (flag) {
+			    	//将用户的信息存储在session中
+					//这里就是HttpSession
+			    	HttpSession  session =request.getSession();
+			    	session.setAttribute("u", u);
+					session.setAttribute("buyersname", buyersname);
+					response.sendRedirect("index.jsp");
+					return;
+				}else {
+					response.sendRedirect("Login.jsp");
+					return;
+				}
+				
+}
 	
 	
 }

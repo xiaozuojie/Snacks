@@ -25,11 +25,6 @@
   <div id="top">
     <div class="Inside_pages">
       <div class="Collection">欢迎光临零食e站！</div>
-	<div class="hd_top_manu clearfix">
-	  <ul class="clearfix">
-	   <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！<a href="Login.jsp" class="red">[请登录]</a> 新用户<a href="Registered.jsp" class="red">[免费注册]</a></li>
-	  </ul>
-	</div>
     </div>
   </div>
   <!--顶部样式1-->

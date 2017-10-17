@@ -19,4 +19,6 @@ public class BuyersDao {
 	public boolean addbuyers(String buyersaccount,String buyerspwd) {
 		return BaseDao.execute("insert into SNACKS_BUYERS (BUYERS_ACCOUNT, BUYERS_PWD) values(?,?)", buyersaccount,buyerspwd)>0;
 	}
+	//ÐÞ¸ÄÃÜÂë
+	
 }

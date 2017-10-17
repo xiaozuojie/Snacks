@@ -12,48 +12,7 @@
 	<script src="js/jquery.min.1.8.2.js" type="text/javascript"></script>
 	<title>用户登录</title>
 </head>
-<script type="text/javascript">
-<!--利用ajax+json判断用户是否存在-->
-	$(function() {
-		$("#btn_signin").click(
-				function() {
-					//使用jQuery的get方法来发送请求
-					$.get("BuyersServlet?buyersname=" + $("#user_text").val()
-							+ "&random=" + Math.random() + "&password="
-							+ $("#tbPassword").val(), function(data, status) {
-					/* 	if (data == "用户名正确") {
-							alert(data);
-							$(".msg").text("用户名正确");
-							//window.location.href = 'login1.jsp';
 
-						} else if(data == "用户名错误")  {
-							alert(data);
-							$(".msg").text("用户名不存在");
-							window.location.href='login.jsp';
-						}  */ if(data == "用户名正确用户密码错误")  {
-							$(".msg").text("用户名正确");
-							$(".msg1").text("密码错误，注意大小写区分！");
-						} else if(data == "用户名正确用户密码正确")  {
-							window.location.href='Login1.jsp';	
-							$(".msg").text("");
-							$(".msg1").text("登入成功");
-							}
-						else if(data == "用户名错误用户密码正确")  {
-							$(".msg").text("该用户名不存在");
-							$(".msg1").text("");
-						}else if(data == "用户名错误用户密码错误")  {
-							$(".msg").text("该用户不存在");
-							$(".msg1").text("");
-						}/* else{
-							alert("请检查你的用户名和密码是否错误");
-						} */
-					});
-
-				});
-
-	});
-
-</script>
 
 <body>
 	<div class="Reg_log_style">
@@ -67,7 +26,7 @@
 			<div class="right_img">
 				<img src="images/bg_name_05.png" />
 			</div>
-			<form id="myform" class="sign_area" autocomplete="off">
+			<form id="myform" class="sign_area" autocomplete="off" action=BuyersServlet method="post">
 				<div class="title_name">
 					<span id="login123">登录</span>
 				</div>
@@ -86,7 +45,7 @@
 
 						<div class="auto_login clearfix">
 							<p class="clearfix">
-								<a id="check_agreement" href="#" class="check_agreement">自动登录</a>
+								<a id="check_agreement"  class="check_agreement">自动登录</a>
 								<input id="autoLoginCheck" type="hidden"> <span
 									id="agreement_tips" class="auto_tips" style="">请勿在公用电脑上启用</span>
 							</p>
@@ -94,7 +53,7 @@
 						</div>
 						<div class="center clearfix">
 							<a class="btn_pink" id="btn_signin" type="button"
-								href="Home.jsp">立即登录</a>
+								href="javascript:document.getElementById('myform').submit();">立即登录</a>
 						</div>
 					</div>
 			</form>
