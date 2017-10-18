@@ -549,6 +549,18 @@ JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", 
      </div>
      <div class="sideMen">
      <!--菜单列表图层-->
+    
+     <dl class="accountSideOption1">
+      <dt class="transaction_manage"><em class="icon_2"></em>用户中心</dt>
+        <dd>
+      <ul>
+      <li> <a href="User.jsp"> 个人中心</a></li>
+        <li> <a href="BuyersServlet?op=info"> 用户信息</a></li>
+        <li> <a href="User_changePassword.jsp"> 修改密码</a></li>
+        <li> <a href="User_address.jsp">收货地址</a></li>
+      </ul>
+    </dd>
+    </dl>
      <dl class="accountSideOption1">
       <dt class="transaction_manage"><em class="icon_1"></em>订单中心</dt>
       <dd>
@@ -560,19 +572,7 @@ JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", 
         </ul>
       </dd>
     </dl>
-     <dl class="accountSideOption1">
-      <dt class="transaction_manage"><em class="icon_2"></em>用户中心</dt>
-        <dd>
-      <ul>
-      <li> <a href="User.jsp"> 个人中心</a></li>
-        <li> <a href="User_Personalinfo.jsp"> 用户信息</a></li>
-        <li> <a href="User_changePassword.jsp"> 修改密码</a></li>
-        <li> <a href="User_address.jsp">收货地址</a></li>
-      </ul>
-    </dd>
-    </dl>
     </div>
-      <script>jQuery(".sideMen").slide({titCell:"dt", targetCell:"dd",trigger:"click",defaultIndex:0,effect:"slideDown",delayTime:300,returnDefault:true});</script>
    </div>  
   </div>
   <!--右侧样式-->

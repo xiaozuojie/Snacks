@@ -19,6 +19,9 @@ public class BuyersDao {
 	public boolean addbuyers(String buyersaccount,String buyerspwd) {
 		return BaseDao.execute("insert into SNACKS_BUYERS (BUYERS_ACCOUNT, BUYERS_PWD) values(?,?)", buyersaccount,buyerspwd)>0;
 	}
-	//修改密码
+	//查询特定的用户的信息
+	public List<Buyers> searchinfo(String buyersname) {
+		return (List<Buyers>)BaseDao.select("select * from SNACKS_BUYERS where BUYERS_ACCOUNT=?", Buyers.class, buyersname);
+	}
 	
 }

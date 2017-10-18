@@ -13,4 +13,8 @@ public List<Buyers>  getAlluser(){
 public boolean  addbuyers(String buyersaccount,String buyerspwd){
 	return ud.addbuyers(buyersaccount, buyerspwd);
 }
+//查询特定的用户信息
+public List<Buyers>  searchinfo(String buyersname){
+	return ud.searchinfo(buyersname);
+}
 }

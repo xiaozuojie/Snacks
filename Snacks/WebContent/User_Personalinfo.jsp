@@ -1,6 +1,8 @@
 <%@page import="javax.swing.JOptionPane"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
+
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -20,8 +22,8 @@
    if(session.getAttribute("buyersname")==null)
    {
 	   //重定向
-	
-JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", JOptionPane.ERROR_MESSAGE); 
+	   
+       JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", JOptionPane.ERROR_MESSAGE); 
 	   response.sendRedirect("Login.jsp");
    }
  %>
@@ -550,6 +552,18 @@ JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", 
      </div>
      <div class="sideMen">
      <!--菜单列表图层-->
+    
+     <dl class="accountSideOption1">
+      <dt class="transaction_manage"><em class="icon_2"></em>用户中心</dt>
+        <dd>
+      <ul>
+      <li> <a href="User.jsp"> 个人中心</a></li>
+        <li> <a href="BuyersServlet?op=info"> 用户信息</a></li>
+        <li> <a href="User_changePassword.jsp"> 修改密码</a></li>
+        <li> <a href="User_address.jsp">收货地址</a></li>
+      </ul>
+    </dd>
+    </dl>
      <dl class="accountSideOption1">
       <dt class="transaction_manage"><em class="icon_1"></em>订单中心</dt>
       <dd>
@@ -561,19 +575,7 @@ JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", 
         </ul>
       </dd>
     </dl>
-     <dl class="accountSideOption1">
-      <dt class="transaction_manage"><em class="icon_2"></em>用户中心</dt>
-        <dd>
-      <ul>
-      <li> <a href="User.jsp"> 个人中心</a></li>
-        <li> <a href="User_Personalinfo.jsp"> 用户信息</a></li>
-        <li> <a href="User_changePassword.jsp"> 修改密码</a></li>
-        <li> <a href="User_address.jsp">收货地址</a></li>
-      </ul>
-    </dd>
-    </dl>
     </div>
-      <script>jQuery(".sideMen").slide({titCell:"dt", targetCell:"dd",trigger:"click",defaultIndex:0,effect:"slideDown",delayTime:300,returnDefault:true});</script>
    </div>  
   </div>
   <!--右侧样式-->
@@ -581,25 +583,25 @@ JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", 
     <div class="info_content">
      <!--个人信息-->
       <div class="Personal_info" id="Personal">
+      
          <div class="title_Section"><span>个人信息</span></div>
-         <ul class="xinxi">
-          <li><label>出身日期：</label> <span class="time">1991年6月3日</span>
+   <%--       <c:if test="${requestScope.pd.data!=null}"> --%>
+	
+	 <ul class="xinxi">
            <div class="add_time">
               <select name=""></select><select name=""></select><select name=""></select>
            </div>
           </li>
-          <li><label>用户性别：</label> <span class="sex">男</span>
-          <div class="add_sex">
-          <input type="radio" name="sex" value="0" checked="checked">
-                    保密&nbsp;&nbsp;
-                    <input type="radio" name="sex" value="1">
-                    男&nbsp;&nbsp;
-                    <input type="radio" name="sex" value="2">
-                  女&nbsp;&nbsp;</div></li>
-          <li><label>电子邮箱：</label>  <span><input name="" type="text" value="234567777@qq.com"  class="text"  disabled="disabled"/></span></li>
-          <li><label>用户QQ：</label>  <span><input name="" type="text" value="455656565"  class="text"  disabled="disabled"/></span></li>        
-          <li><label>移动电话：</label>  <span><input name="" type="text" value="455656565"  class="text"  disabled="disabled"/></span></li>
-          <li><label>固定电话：</label> <span><input name="" type="text" value="455656565"  class="text"  disabled="disabled"/></span></li>
+          <c:forEach items="${requestScope.list}" var="info">
+	      <li><label>用户名：</label><span class="time">${info.BUYERS_ACCOUNT}</span> </li>
+	      <li><label>真实姓名：</label><span class="time">${info.BUYERS_NAME}</span></li>
+	       <li><label>性别：</label> <span class="time">${info.BUYERS_SEX}</span></li>  
+          <li><label>电话号码：</label><span class="time">${info.BUYERS_TEL}</span></li>               
+          <li><label>默认地址：</label> <span class="time">${info.BUYERS_LOCID}</span></li>
+           <li><label>QQ：</label><span class="time">${info.BUYERS_QQ}</span></li>
+         
+          
+          </c:forEach>
           <div class="bottom"><input name="" type="submit" value="修改信息"  class="modify"/><input name="" type="submit" value="确认修改"  class="confirm"/></div>
          </ul>
          <ul class="Head_portrait">

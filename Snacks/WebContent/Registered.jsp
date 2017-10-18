@@ -15,7 +15,7 @@ $(function() {
 			function() {
 				
 				//使用jQuery的get方法来发送请求
-				$.get("Buyersreg?buyersname=" + $("#user_text").val()+ "&random=" + Math.random() + "&password="+ $("#tbPassword").val()+"&password2="+$("#tbPassword2").val(), function(data, status) {
+				$.get("BuyersServlet?buyersname=" + $("#user_text").val()+"&op="+"reg"+ "&random=" + Math.random() + "&password="+ $("#tbPassword").val()+"&password2="+$("#tbPassword2").val(), function(data, status) {
 					alert(data);
 					if (data=="用户注册成功!用户名可用") { 
 									$(".msg2").text("");

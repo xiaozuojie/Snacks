@@ -15,7 +15,7 @@ public static void main(String[] args) {
 		System.out.println(user);
 	}
 	boolean flag;
-	flag=ud.addbuyers("²âÊÔ¼ÇÂ¼12", "12");
+	flag=ud.addbuyers("²âÊÔ¼ÇÂ¼13", "12");
 	System.out.println(flag);
 }
 }

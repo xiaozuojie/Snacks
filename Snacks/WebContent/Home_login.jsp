@@ -1040,7 +1040,7 @@ JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", 
    <!--右侧菜单栏购物车样式-->
 <div class="fixedBox">
   <ul class="fixedBoxList">
-      <li class="fixeBoxLi user"><a href="User.jsp"> <span class="fixeBoxSpan iconfont icon-yonghu"></span> <strong>用户</strong></a> </li>
+      <li class="fixeBoxLi user"><a href="BuyersServlet?op=info"> <span class="fixeBoxSpan iconfont icon-yonghu"></span> <strong>用户</strong></a> </li>
     <li class="fixeBoxLi cart_bd" style="display:block;" id="cartboxs">
 		<p class="good_cart">0</p>
 			<span class="fixeBoxSpan iconfont icon-cart"></span> <strong>购物车</strong>

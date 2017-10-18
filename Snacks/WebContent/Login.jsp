@@ -25,7 +25,7 @@
 			<div class="right_img">
 				<img src="images/bg_name_05.png" />
 			</div>
-			<form id="myform" class="sign_area" autocomplete="off" action=BuyersServlet method="post">
+			<form id="myform" class="sign_area" autocomplete="off" action="BuyersServlet?op=login" method="post">
 				<div class="title_name">
 					<span id="login123">登录</span>
 				</div>
