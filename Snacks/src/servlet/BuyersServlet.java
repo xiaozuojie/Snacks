@@ -136,6 +136,49 @@ public class BuyersServlet extends HttpServlet {
 						response);
 				
 			}
+			else if(op.equals("changepwd")) {
+				
+				//获取所有的用户信息用list来接收
+              
+                String buyersname="";
+                HttpSession session=request.getSession();//创建一个session实例
+                buyersname=(String) session.getAttribute("buyersname"); 
+                String pwd=request.getParameter("password1");
+                String pwd1= request.getParameter("password2");
+                String pwd2=request.getParameter("password3");
+                boolean flag = false;
+                boolean flag1 = false;
+                List<Buyers> list=new ArrayList<Buyers>();
+                list=bs.searchinfo(buyersname);
+                for (Buyers buyers : list) {
+					if (pwd.equals(buyers.getBUYERS_PWD())) {
+						flag=true;
+					}
+				}
+                if (pwd1.equals(pwd2)) {
+					flag1=true;
+				}
+                if (flag==true&&flag1==true) {
+                	HttpSession ht=request.getSession(true);
+                	ht.removeAttribute("");
+                          //从session中删除user属性
+                         //ht.removeAttribute(要删除的attribute的name);
+                    ht.removeAttribute("buyersname");
+                    ht.removeAttribute("u");
+                    JOptionPane.showMessageDialog(null, "密码修改成功，请重新登入", "提示", JOptionPane.ERROR_MESSAGE);
+                	request.getRequestDispatcher("User_changePassword.jsp").forward(request,
+    						response);
+				}else {
+					 JOptionPane.showMessageDialog(null, "密码修改失败", "提示", JOptionPane.ERROR_MESSAGE);
+						request.getRequestDispatcher("User_changePassword.jsp").forward(request,
+	    						response);
+				}
+               
+                
+
+				
+				
+			}
             
 	
 	}

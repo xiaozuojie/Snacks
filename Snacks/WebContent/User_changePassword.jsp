@@ -22,7 +22,7 @@
    {
 	   //重定向
 	
-JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", JOptionPane.ERROR_MESSAGE); 
+    JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", JOptionPane.ERROR_MESSAGE); 
 	   response.sendRedirect("Login.jsp");
    }
  %>
@@ -580,24 +580,17 @@ JOptionPane.showMessageDialog(null, "您需要先登入才能访问", "提示", 
      <div class="info_content">
       <!--修改密码样式-->
        <div class="change_Password">
+       	<form id="myform" class="title_Section" autocomplete="off" action="BuyersServlet?op=changepwd" method="post">
            <div class="title_Section"><span>修改密码</span></div>
            <ul class="p_modify">
+           
               <div class="Note">暂只支持原密码修改，不支持邮箱电话验证密码修改</div>
-              <li><label>原密码</label><input name="" type="password"  class="text_Password"/></li>
-              <li class="new_password">
-                <label>新密码</label>
-                <div class="ywz_zhuce_xiaoxiaobao">
-			  <div class="ywz_zhuce_kuangzi"><input name="tbPassword" type="password" id="tbPassword" class="ywz_zhuce_kuangwenzi1 text_Password"></div>
-			<div class="ywz_zhuce_huixian" id="pwdLevel_1">弱 </div>
-			<div class="ywz_zhuce_huixian" id="pwdLevel_2">中 </div>
-			<div class="ywz_zhuce_huixian" id="pwdLevel_3">强 </div>
-		     </div>
-            <div class="ywz_zhuce_yongyu1">
-            <span id="pwd_err" style="color: rgb(255, 0, 0)">6-16位，由字母（区分大小写）、数字、符号组成</span>
-		     </div>
+              <li><label>原密码</label><input name="password1" type="password"  class="text_Password"/></li>
+              <li><label>新密码</label><input name="password2" type="password"  class="text_Password"/></li>
               </li>            
-              <li><label>确认密码</label><input name="" type="password"  class="text_Password"/></li>
-              <li><input name="submit" type="submit" class="bnt_blue_1" style="border:none;" value="确认修改"></li>
+              <li><label>确认密码</label><input name="password3" type="password"  class="text_Password"/></li>
+              <li><input name="submit" type="submit" href="javascript:document.getElementById('myform').submit();" class="bnt_blue_1" style="border:none;" value="确认修改"></li>
+              </form>
            </ul>
        </div>
      </div>

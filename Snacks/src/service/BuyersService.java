@@ -17,4 +17,8 @@ public boolean  addbuyers(String buyersaccount,String buyerspwd){
 public List<Buyers>  searchinfo(String buyersname){
 	return ud.searchinfo(buyersname);
 }
+//ĞŞ¸ÄÃÜÂëµÄ
+public boolean update(String name,String pwd) {
+	return ud.update(name, pwd);
+}
 }

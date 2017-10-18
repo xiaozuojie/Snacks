@@ -23,5 +23,9 @@ public class BuyersDao {
 	public List<Buyers> searchinfo(String buyersname) {
 		return (List<Buyers>)BaseDao.select("select * from SNACKS_BUYERS where BUYERS_ACCOUNT=?", Buyers.class, buyersname);
 	}
+	//ÐÞ¸ÄÃÜÂë
+	public boolean update(String name,String pwd) {
+		return BaseDao.execute("UPDATE SNACKS_BUYERS SET BUYERS_PWD=?  WHERE BUYERS_ACCOUNT = ? ",name,pwd)>0;
+	}
 	
 }
